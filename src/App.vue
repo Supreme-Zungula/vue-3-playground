@@ -1,9 +1,11 @@
 <script setup>
+import ComputedProps from './components/ComputedProps.vue';
 </script>
 
 <template>
   <div>
-    <h1>Vue playground</h1>
+    <h1>Computed Props</h1>
+    <ComputedProps />
   </div>
 </template>
 
