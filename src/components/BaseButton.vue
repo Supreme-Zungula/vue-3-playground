@@ -3,8 +3,8 @@
 </template>
 <script>
 export default {
-  setup() {
-    return {}
+  setup(props, context) {
+    console.log(context.attrs);
   },
 }
 </script>
